@@ -1,0 +1,129 @@
+@import "../../css-root/root.css";
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999
+}
+
+.header-top {
+    background-color: #1b1036;
+    padding: 10px 0
+}
+
+.social-review-wrap ul li a {
+    display: flex;
+    align-items: center
+}
+
+.social-review-wrap ul {
+    display: flex;
+    align-items: center
+}
+
+.social-review-wrap ul li {
+    padding: 0 20px;
+    border-left: 1px solid #ccc
+}
+
+.social-review-wrap ul li:first-child {
+    padding-left: 0;
+    border-left: none
+}
+
+.social-review-wrap ul li a span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 9px
+}
+
+.social-review-wrap ul li a span {
+    display: none
+}
+
+.top-detail {
+    display: flex;
+    justify-content: flex-end
+}
+
+.top-detail ul {
+    display: flex
+}
+
+.top-detail ul li {
+    padding: 0 15px
+}
+
+.top-detail ul li:last-child {
+    padding-right: 0
+}
+
+.top-detail ul li a span {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 8px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500
+}
+
+.top-detail ul li a i {
+    color: #fff
+}
+
+.top-detail ul li a i.fas.fa-phone {
+    transform: rotate(90deg)
+}
+
+.top-detail ul li a:hover i, .top-detail ul li a:hover span {
+    color: #0de2a3;
+    transition: .4s all ease-in-out
+}
+
+.header-bottom {
+    border-bottom: 1px solid #fff;
+    align-items: center
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.desktop-menu ul {
+    padding: 0
+}
+
+.desktop-menu ul li {
+    padding: 35px 25px
+}
+
+.desktop-menu ul li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif
+}
+
+.desktop-menu ul li a:hover {
+    color: #0de2a3
+}
+
+.desktop-button {
+    display: flex;
+    align-items: center
+}
+
+.desktop-button .orange-btn {
+    margin: 0 30px
+}
+
+.header-top svg {
+    font-size: 18px;
+    color: #fff;
+}
+
+.header-top svg:hover {
+    color: #0de2a3;
+}
